@@ -5,12 +5,15 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start": "node server.js" 
   },
   "dependencies": {
     "core-js": "^3.6.5",
     "drawer": "0.0.2",
+    "express": "^4.17.1",
     "fontawesome": "^5.6.3",
+    "serve-static": "^1.14.1",
     "vue": "^2.6.11",
     "vue-fontawesome": "0.0.2",
     "vue-router": "^3.2.0",
